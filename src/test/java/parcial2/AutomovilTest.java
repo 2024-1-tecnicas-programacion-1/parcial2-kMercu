@@ -10,7 +10,7 @@ public class AutomovilTest {
 
     private Automovil automovil;
 
-    @BeforeEach
+    @BeforeEach  
     public void setUp() {
         automovil = new Automovil("Honda", "Civic", 2019, 4, TipoCombustible.GASOLINA);
     }

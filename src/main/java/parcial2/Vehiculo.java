@@ -12,8 +12,10 @@ public class Vehiculo {
         this.año = año;
     }
     
-    public String imprimirInformacion();
-    return "";
+    public String imprimirInformacion(){
+        return "";
+    }
+    
     
     public void setMarca(String marca) {
         this.marca = marca;

@@ -20,7 +20,7 @@ public class Automovil extends Vehiculo{
     @Override
     public String imprimirInformacion(){
         super.imprimirInformacion();
-        return (tipoCombustible + numeroPuertas);
+        return "";
     }
     
     public int getNumeroPuertas() {
